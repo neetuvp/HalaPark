@@ -1,0 +1,316 @@
+
+Date :2021-03-13 09:44:09 *************************************Log**********************************************************
+Date :2021-03-13 09:44:09 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 09:44:09 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 09:44:09 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 09:44:09 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 09:44:09 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 09:44:10 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 09:44:10 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 09:44:10 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 09:44:10 Response:{"access_allowed":"true","plate_capture_id":null,"plate_image_name":null,"description":"Description"}
+Date :2021-03-13 09:54:39 *************************************Log**********************************************************
+Date :2021-03-13 09:54:39 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 09:54:39 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 09:54:39 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 09:54:39 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 09:54:39 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 09:54:39 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 09:54:39 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 09:54:39 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 09:54:39 Response:{"access_allowed":"true","plate_capture_id":null,"plate_image_name":null,"description":"Description"}
+Date :2021-03-13 09:56:08 *************************************Log**********************************************************
+Date :2021-03-13 09:56:08 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 09:56:08 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 09:56:08 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 09:56:08 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 09:56:08 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 09:56:08 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 09:56:08 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 09:56:08 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 09:56:08 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-13 10:02:04 *************************************Log**********************************************************
+Date :2021-03-13 10:02:04 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:02:04 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:02:04 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:02:04 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:02:04 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:02:04 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:02:04 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:02:04 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:02:04 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-13 10:02:14 *************************************Log**********************************************************
+Date :2021-03-13 10:02:14 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:02:14 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:02:14 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:02:14 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:02:14 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:02:14 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:02:14 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:02:14 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:02:14 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-13 10:18:59 *************************************Log**********************************************************
+Date :2021-03-13 10:18:59 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:18:59 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:18:59 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:18:59 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:18:59 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:18:59 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:18:59 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:18:59 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:18:59 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":null,"description":"Description"}
+Date :2021-03-13 10:19:51 *************************************Log**********************************************************
+Date :2021-03-13 10:19:51 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:19:51 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:19:51 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:19:51 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:19:51 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:19:51 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:19:51 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:19:51 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:19:51 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":null,"description":"Description"}
+Date :2021-03-13 10:20:19 *************************************Log**********************************************************
+Date :2021-03-13 10:20:19 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:20:19 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:20:19 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:20:19 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:20:19 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:20:19 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:20:19 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:20:19 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:20:19 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":null,"description":"Description"}
+Date :2021-03-13 10:20:53 *************************************Log**********************************************************
+Date :2021-03-13 10:20:53 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:20:53 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:20:53 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:20:53 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:20:53 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:20:53 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:20:53 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:20:53 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:20:53 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":null,"description":"Description"}
+Date :2021-03-13 10:21:48 *************************************Log**********************************************************
+Date :2021-03-13 10:21:48 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:21:48 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:21:48 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:21:48 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:21:48 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:21:48 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:21:48 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:21:48 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:21:48 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-13 10:22:01 *************************************Log**********************************************************
+Date :2021-03-13 10:22:01 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:22:01 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:22:01 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:22:01 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:22:01 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:22:01 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:22:01 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:22:01 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:22:01 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":null,"description":"Description"}
+Date :2021-03-13 10:22:15 *************************************Log**********************************************************
+Date :2021-03-13 10:22:15 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:22:15 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:22:15 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:22:15 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:22:15 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:22:15 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:22:15 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:22:15 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:22:15 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":"OMNH43956_02-06-202007:08:32.jpg","description":"Description"}
+Date :2021-03-13 10:22:32 *************************************Log**********************************************************
+Date :2021-03-13 10:22:32 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 10:22:32 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 10:22:32 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 10:22:32 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 10:22:32 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 10:22:32 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 10:22:32 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 10:22:32 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 10:22:32 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":"OMNH43956_02-06-202007:08:32.jpg","description":"Description"}
+Date :2021-03-13 11:32:32 *************************************Log**********************************************************
+Date :2021-03-13 11:32:32 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 11:32:32 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 11:32:32 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 11:32:32 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 11:32:32 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 11:32:32 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 11:32:32 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 11:32:32 CallAPI,Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-13 11:32:32 code:GATE_NOT_FOUND
+Date :2021-03-13 11:32:32 codetext:The gate not found
+Date :2021-03-13 11:32:32 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',api_datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 11:32:32 Response:{"access_allowed":"false"}
+Date :2021-03-13 13:12:03 *************************************Log**********************************************************
+Date :2021-03-13 13:12:03 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 13:12:03 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-13 13:12:03 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-13 13:12:03 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-13 13:12:03 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-13 13:12:03 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-13 13:12:03 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-13 13:12:03 CallAPI,Response:{"success":"true"}
+Date :2021-03-13 13:12:03 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":"OMNH43956_02-06-202007:08:32.jpg","description":"Description"}
+Date :2021-03-13 13:27:16 *************************************Log**********************************************************
+Date :2021-03-13 13:27:16 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 13:27:16 Response:{"access_allowed":"false"}
+Date :2021-03-13 13:30:26 *************************************Log**********************************************************
+Date :2021-03-13 13:30:26 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 13:31:49 *************************************Log**********************************************************
+Date :2021-03-13 13:31:49 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 13:31:49 sql:Select access_id from access_whitelist where plate_number like '%M 72702'
+Date :2021-03-13 13:34:23 *************************************Log**********************************************************
+Date :2021-03-13 13:34:23 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 13:34:23 Response:{"access_allowed":"true","plate_capture_id":null,"plate_image_name":"","description":"Description"}
+Date :2021-03-13 14:20:27 *************************************Log**********************************************************
+Date :2021-03-13 14:20:27 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 14:20:27 Response:{"access_allowed":"true","plate_capture_id":null,"plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-13 14:21:16 *************************************Log**********************************************************
+Date :2021-03-13 14:21:16 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-13 14:21:16 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"76","plate_image_name_secondary":"OMNH43956_02-06-202007:08:32.jpg","description":"Description"}
+Date :2021-03-13 14:22:10 *************************************Log**********************************************************
+Date :2021-03-13 14:22:10 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 727022",
+    "qrcode":""
+}
+Date :2021-03-13 14:22:10 Response:{"access_allowed":"false"}
+Date :2021-03-13 14:25:03 *************************************Log**********************************************************
+Date :2021-03-13 14:25:03 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 727022",
+    "qrcode":""
+}
+Date :2021-03-13 14:25:03 Response:{"access_allowed":"false"}
+Date :2021-03-13 14:26:24 *************************************Log**********************************************************
+Date :2021-03-13 14:26:24 Request:{
+    "plate_capture_id1":"79",
+    "plate_capture_id2":"76",
+    "plate_number":"M 727022",
+    "qrcode":""
+}
+Date :2021-03-13 14:26:24 Response:{"access_allowed":"false"}
+Date :2021-03-13 14:27:29 *************************************Log**********************************************************
+Date :2021-03-13 14:27:29 Request:{
+    "plate_capture_id1":"790",
+    "plate_capture_id2":"760",
+    "plate_number":"M 727022",
+    "qrcode":""
+}
+Date :2021-03-13 14:27:29 Response:{"access_allowed":"false"}
+Date :2021-03-13 14:35:36 *************************************Log**********************************************************
+Date :2021-03-13 14:35:36 Request:{
+    "plate_capture_id1":"790",
+    "plate_capture_id2":"760",
+    "plate_number":"M 727023",
+    "qrcode":""
+}
+Date :2021-03-13 14:35:36 Response:{"access_allowed":"false"}

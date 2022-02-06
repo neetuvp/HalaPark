@@ -1,0 +1,201 @@
+
+Date :2021-03-11 08:17:42 *************************************Log**********************************************************
+Date :2021-03-11 08:17:42 Request:{
+    "plate_capture_id":"88",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 08:17:42 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 08:17:42 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 08:17:42 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 08:17:42 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 08:17:42 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 08:17:42 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-11 08:17:42 code:GATE_NOT_FOUND
+Date :2021-03-11 08:17:42 codetext:The gate not found
+Date :2021-03-11 08:17:42 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 08:17:42 Response:{"access_allowed":"false"}
+Date :2021-03-11 08:18:15 *************************************Log**********************************************************
+Date :2021-03-11 08:18:15 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 08:18:15 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 08:18:15 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 08:18:15 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 08:18:15 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 08:18:15 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 08:18:15 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-11 08:18:15 code:GATE_NOT_FOUND
+Date :2021-03-11 08:18:15 codetext:The gate not found
+Date :2021-03-11 08:18:15 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 08:18:15 Response:{"access_allowed":"false"}
+Date :2021-03-11 08:18:43 *************************************Log**********************************************************
+Date :2021-03-11 08:18:43 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 08:18:43 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 08:18:43 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 08:18:43 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 08:18:43 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 08:18:43 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 08:18:43 CallAPI,API Response:{"success":"true"}
+Date :2021-03-11 08:18:43 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-11 12:21:31 *************************************Log**********************************************************
+Date :2021-03-11 12:21:31 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 12:21:31 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 12:21:31 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 12:21:31 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 12:21:31 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 12:21:31 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 12:21:31 CallAPI,API Response:{"success":"true"}
+Date :2021-03-11 12:21:32 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-11 13:11:14 *************************************Log**********************************************************
+Date :2021-03-11 13:11:14 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 13:11:14 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 13:11:14 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 13:11:14 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 13:11:14 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:11:14 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 13:11:14 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 13:11:14 CallAPI,Response:{"success":"true"}
+Date :2021-03-11 13:11:14 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-11 13:14:57 *************************************Log**********************************************************
+Date :2021-03-11 13:14:57 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 13:14:57 Token,URL:https://sapis.fasah.sa/tabadul/fasahsb/oauth2/token/v1/jwt
+Date :2021-03-11 13:14:57 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 13:14:59 Token,Response:{"httpCode":400,"httpMessage":"Bad Request"}
+Date :2021-03-11 13:14:59 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"httpCode":400,"httpMessage":"Bad Request"}',token_datetime_response=NOW(),fault_code_text='Technical Error' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:14:59 Response:null
+Date :2021-03-11 13:18:14 *************************************Log**********************************************************
+Date :2021-03-11 13:18:14 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 13:18:14 Token,URL:https://sapis.fasah.sa/tabadul/fasahsb/oauth2/token/v1/jwt
+Date :2021-03-11 13:18:14 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 13:18:15 Token,Response:{"httpCode":400,"httpMessage":"Bad Request"}
+Date :2021-03-11 13:18:15 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"httpCode":400,"httpMessage":"Bad Request"}',token_datetime_response=NOW(),fault_code_text='Token Technical Error' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:18:15 Response:null
+Date :2021-03-11 13:20:27 *************************************Log**********************************************************
+Date :2021-03-11 13:20:27 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 13:20:27 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 13:20:27 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 13:20:27 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 13:20:27 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:20:27 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 13:20:27 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 13:20:27 CallAPI,Response:{"success":"true"}
+Date :2021-03-11 13:20:27 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-11 13:20:40 *************************************Log**********************************************************
+Date :2021-03-11 13:20:40 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 13:20:40 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 13:20:40 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 13:20:40 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 13:20:40 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:20:40 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 13:20:40 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 13:20:40 CallAPI,Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-11 13:20:40 code:GATE_NOT_FOUND
+Date :2021-03-11 13:20:40 codetext:The gate not found
+Date :2021-03-11 13:20:40 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',api_datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:20:40 Response:{"access_allowed":"false"}
+Date :2021-03-11 13:26:09 *************************************Log**********************************************************
+Date :2021-03-11 13:26:09 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 13:26:09 Token,URL:https://sapis.fasah.sa/tabadul/fasahsb/oauth2/token/v1/jwt
+Date :2021-03-11 13:26:09 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 13:26:10 Token,Response:{"httpCode":400,"httpMessage":"Bad Request"}
+Date :2021-03-11 13:26:10 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"httpCode":400,"httpMessage":"Bad Request"}',token_datetime_response=NOW(),fault_code_text='Token Technical Error' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 13:26:10 Response:{"access_allowed":"false"}
+Date :2021-03-11 14:25:06 *************************************Log**********************************************************
+Date :2021-03-11 14:25:06 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 14:25:06 Token,URL:https://sapis.fasah.sa/tabadul/fasahsb/oauth2/token/v1/jwt
+Date :2021-03-11 14:25:06 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 14:25:08 Token,Response:{"httpCode":400,"httpMessage":"Bad Request"}
+Date :2021-03-11 14:25:08 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"httpCode":400,"httpMessage":"Bad Request"}',token_datetime_response=NOW(),fault_code_text='Token Technical Error' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 14:25:08 Response:{"access_allowed":"false"}
+Date :2021-03-11 14:40:49 *************************************Log**********************************************************
+Date :2021-03-11 14:40:49 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"",
+    "qrcode":"123232323"
+}
+Date :2021-03-11 14:40:49 Token,URL:https://sapis.fasah.sa/tabadul/fasahsb/oauth2/token/v1/jwt
+Date :2021-03-11 14:40:49 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 14:40:49 Token,Response:{"httpCode":400,"httpMessage":"Bad Request"}
+Date :2021-03-11 14:40:49 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"httpCode":400,"httpMessage":"Bad Request"}',token_datetime_response=NOW(),fault_code_text='Token Technical Error' where plate_number = '' or reference_number = '123232323' order by id desc limit 1
+Date :2021-03-11 14:40:49 Response:{"access_allowed":"false"}
+Date :2021-03-11 14:41:11 *************************************Log**********************************************************
+Date :2021-03-11 14:41:11 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"",
+    "qrcode":"123232323"
+}
+Date :2021-03-11 14:41:11 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 14:41:11 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 14:41:11 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 14:41:11 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = '' or reference_number = '123232323' order by id desc limit 1
+Date :2021-03-11 14:41:11 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 14:41:11 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"123232323","referenceType":"BookRefNumber"}
+Date :2021-03-11 14:41:11 CallAPI,Response:{"success":"true"}
+Date :2021-03-11 14:41:11 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-11 14:53:35 *************************************Log**********************************************************
+Date :2021-03-11 14:53:35 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"",
+    "qrcode":"123232323"
+}
+Date :2021-03-11 14:53:35 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 14:53:35 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 14:53:35 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 14:53:35 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = '' or reference_number = '123232323' order by id desc limit 1
+Date :2021-03-11 14:53:35 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 14:53:35 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"123232323","referenceType":"BookRefNumber"}
+Date :2021-03-11 14:53:35 CallAPI,Response:{"success":"true"}
+Date :2021-03-11 14:53:35 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-11 14:55:46 *************************************Log**********************************************************
+Date :2021-03-11 14:55:46 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"M 72702",
+    "qrcode":""
+}
+Date :2021-03-11 14:55:46 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-11 14:55:46 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-11 14:55:46 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-11 14:55:46 sql:Update smartgate_request set token_datetime_response=NOW(),api_datetime_request=NOW(),token_response ='{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}' where plate_number = 'M 72702' or reference_number = '' order by id desc limit 1
+Date :2021-03-11 14:55:46 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-11 14:55:46 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"M 72702","referenceType":"Plate Number"}
+Date :2021-03-11 14:55:46 CallAPI,Response:{"success":"true"}
+Date :2021-03-11 14:55:46 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}

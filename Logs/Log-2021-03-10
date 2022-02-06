@@ -1,0 +1,303 @@
+
+Date :2021-03-10 11:12:44 *************************************Log**********************************************************
+Date :2021-03-10 11:12:44 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:12:44 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:12:44 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:12:44 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:12:44 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:12:44 CallAPI,Request:{"gateCode":"GS1012122","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:12:44 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:12:44 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:12:53 *************************************Log**********************************************************
+Date :2021-03-10 11:12:53 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:12:53 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:12:53 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:12:53 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:12:53 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:12:53 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:12:53 CallAPI,API Response:{"success":"true"}
+Date :2021-03-10 11:12:53 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-10 11:15:42 *************************************Log**********************************************************
+Date :2021-03-10 11:15:42 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:15:42 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:15:42 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:15:42 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:15:42 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:15:42 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:15:43 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:15:43 code:GATE_NOT_FOUND
+Date :2021-03-10 11:15:43 codetext:
+Date :2021-03-10 11:15:43 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:16:28 *************************************Log**********************************************************
+Date :2021-03-10 11:16:28 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:16:28 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:16:28 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:16:28 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:16:28 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:16:28 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:16:28 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:16:28 code:GATE_NOT_FOUND
+Date :2021-03-10 11:16:28 codejson:
+Date :2021-03-10 11:16:28 codetext:
+Date :2021-03-10 11:16:28 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:22:03 *************************************Log**********************************************************
+Date :2021-03-10 11:22:03 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:22:03 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:22:03 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:22:03 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:22:03 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:22:03 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:22:03 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:22:03 code:GATE_NOT_FOUND
+Date :2021-03-10 11:22:03 codetext:GATE_NOT_FOUND
+Date :2021-03-10 11:22:03 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:27:06 *************************************Log**********************************************************
+Date :2021-03-10 11:27:06 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:27:06 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:27:06 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:27:06 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:27:06 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:27:06 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:27:06 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:27:06 code:GATE_NOT_FOUND
+Date :2021-03-10 11:27:06 codetext:The gate not found
+Date :2021-03-10 11:27:06 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:28:08 *************************************Log**********************************************************
+Date :2021-03-10 11:28:08 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:28:08 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:28:08 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:28:08 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:28:08 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:28:08 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:28:08 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:28:08 code:GATE_NOT_FOUND
+Date :2021-03-10 11:28:08 codetext:The gate not found
+Date :2021-03-10 11:28:08 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found where plate_number = 'UAQ A 63254' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 11:28:08 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:28:41 *************************************Log**********************************************************
+Date :2021-03-10 11:28:41 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:28:41 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:28:41 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:28:41 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:28:41 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:28:41 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:28:41 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:28:41 code:GATE_NOT_FOUND
+Date :2021-03-10 11:28:41 codetext:The gate not found
+Date :2021-03-10 11:28:41 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 63254' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 11:28:41 Response:{"access_allowed":"false"}
+Date :2021-03-10 11:39:55 *************************************Log**********************************************************
+Date :2021-03-10 11:39:55 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:39:55 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:39:55 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:39:55 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:39:55 CallAPI,URL:http://localhost/SmartGate/APIServices.php
+Date :2021-03-10 11:39:55 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:39:55 CallAPI,API Response:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+Date :2021-03-10 11:39:55 Response:[]
+Date :2021-03-10 11:41:29 *************************************Log**********************************************************
+Date :2021-03-10 11:41:29 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:41:29 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:41:29 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:41:29 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:41:29 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:41:29 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:41:29 CallAPI,API Response:{"success":"true"}
+Date :2021-03-10 11:41:29 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-10 11:43:09 *************************************Log**********************************************************
+Date :2021-03-10 11:43:09 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 11:43:09 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 11:43:09 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 11:43:09 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 11:43:09 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 11:43:09 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 11:43:09 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 11:43:09 code:GATE_NOT_FOUND
+Date :2021-03-10 11:43:09 codetext:The gate not found
+Date :2021-03-10 11:43:09 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 63254' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 11:43:09 Response:{"access_allowed":"false"}
+Date :2021-03-10 12:27:44 *************************************Log**********************************************************
+Date :2021-03-10 12:27:44 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-10 12:27:44 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 12:27:44 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 12:27:44 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 12:27:44 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 12:27:44 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-10 12:27:44 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 12:27:44 code:GATE_NOT_FOUND
+Date :2021-03-10 12:27:44 codetext:The gate not found
+Date :2021-03-10 12:27:44 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 63254' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 12:27:44 Response:{"access_allowed":"false"}
+Date :2021-03-10 12:27:53 *************************************Log**********************************************************
+Date :2021-03-10 12:27:53 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632900",
+    "qrcode":""
+}
+Date :2021-03-10 12:27:53 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 12:27:53 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 12:27:53 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 12:27:53 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 12:27:53 CallAPI,Request:{"gateCode":"GS1012124","referenceNumber":"UAQ A 632900","referenceType":"Plate Number"}
+Date :2021-03-10 12:27:53 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 12:27:53 code:GATE_NOT_FOUND
+Date :2021-03-10 12:27:53 codetext:The gate not found
+Date :2021-03-10 12:27:53 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 632900' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 12:27:53 Response:{"access_allowed":"false"}
+Date :2021-03-10 12:29:23 *************************************Log**********************************************************
+Date :2021-03-10 12:29:23 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 12:29:23 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 12:29:23 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 12:29:23 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 12:29:23 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 12:29:23 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 12:29:23 CallAPI,API Response:{"success":"true"}
+Date :2021-03-10 12:29:23 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-10 12:47:52 *************************************Log**********************************************************
+Date :2021-03-10 12:47:52 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 12:47:52 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 12:47:52 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 12:47:52 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 12:47:52 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 12:47:52 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 12:47:52 CallAPI,API Response:{"success":"true"}
+Date :2021-03-10 12:47:52 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-10 15:28:56 *************************************Log**********************************************************
+Date :2021-03-10 15:28:56 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 15:28:56 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 15:28:56 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 15:28:56 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 15:28:56 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 15:28:56 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 15:28:56 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 15:28:56 code:GATE_NOT_FOUND
+Date :2021-03-10 15:28:56 codetext:The gate not found
+Date :2021-03-10 15:28:56 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 632901' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 15:28:56 Response:{"access_allowed":"false"}
+Date :2021-03-10 15:35:52 *************************************Log**********************************************************
+Date :2021-03-10 15:35:52 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 15:35:52 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 15:35:52 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 15:35:52 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 15:35:52 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 15:35:52 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 15:35:52 CallAPI,API Response:{"success":"true"}
+Date :2021-03-10 15:35:52 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-10 15:40:20 *************************************Log**********************************************************
+Date :2021-03-10 15:40:20 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 15:40:20 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 15:40:20 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 15:40:20 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 15:40:20 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 15:40:20 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 15:40:20 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 15:40:20 code:GATE_NOT_FOUND
+Date :2021-03-10 15:40:20 codetext:The gate not found
+Date :2021-03-10 15:40:20 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 632901' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 15:40:20 Response:{"access_allowed":"false"}
+Date :2021-03-10 15:40:48 *************************************Log**********************************************************
+Date :2021-03-10 15:40:48 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 15:40:48 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 15:40:48 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 15:40:48 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 15:40:48 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 15:40:48 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 15:40:48 CallAPI,API Response:{"success":"true"}
+Date :2021-03-10 15:40:48 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-10 16:02:18 *************************************Log**********************************************************
+Date :2021-03-10 16:02:18 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 632901",
+    "qrcode":""
+}
+Date :2021-03-10 16:02:18 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-10 16:02:18 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-10 16:02:18 Token,API Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-10 16:02:18 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-10 16:02:18 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 632901","referenceType":"Plate Number"}
+Date :2021-03-10 16:02:18 CallAPI,API Response:{"success":"false","code":"GATE_NOT_FOUND"}
+Date :2021-03-10 16:02:18 code:GATE_NOT_FOUND
+Date :2021-03-10 16:02:18 codetext:The gate not found
+Date :2021-03-10 16:02:18 sql:Update smartgate_request set response_status = 'Failed',fault_string ='{"success":"false","code":"GATE_NOT_FOUND"}',datetime_response=NOW(),fault_code_text='The gate not found' where plate_number = 'UAQ A 632901' or reference_number = '' order by id desc limit 1
+Date :2021-03-10 16:02:18 Response:{"access_allowed":"false"}

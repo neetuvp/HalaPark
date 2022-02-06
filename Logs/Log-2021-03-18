@@ -1,0 +1,323 @@
+
+Date :2021-03-18 08:18:34 *************************************Log**********************************************************
+Date :2021-03-18 08:18:34 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"74",
+    "plate_capture_id2":"74",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plates_match":0
+}
+Date :2021-03-18 08:18:34 sql:Insert into smartgate_request(device_number,device_name,reference_number,plate_number,gate_code,plate_capture_id,plate_capture_id_secondary,plates_match)values('1','Device','','','',,,0)
+Date :2021-03-18 08:18:34 Response:null
+Date :2021-03-18 08:19:11 *************************************Log**********************************************************
+Date :2021-03-18 08:19:11 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"74",
+    "plate_capture_id2":"74",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plates_match":0
+}
+Date :2021-03-18 08:19:11 sql:Insert into smartgate_request(device_number,device_name,reference_number,plate_number,gate_code,plate_capture_id,plate_capture_id_secondary,plates_match)values('1','Device','','','',,,0)
+Date :2021-03-18 08:19:11 Response:null
+Date :2021-03-18 08:23:20 *************************************Log**********************************************************
+Date :2021-03-18 08:23:20 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"74",
+    "plate_capture_id2":"74",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plates_match":0
+}
+Date :2021-03-18 08:23:20 sql:Insert into smartgate_request(device_number,device_name,reference_number,plate_number,gate_code,plate_capture_id,plate_capture_id_secondary,plates_match)values('1','Device','','','',74,74,0)
+Date :2021-03-18 08:23:20 Response:null
+Date :2021-03-18 08:24:06 *************************************Log**********************************************************
+Date :2021-03-18 08:24:06 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"74",
+    "plate_capture_id2":"74",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plates_match":0
+}
+Date :2021-03-18 08:24:06 sql:Insert into smartgate_request(device_number,device_name,reference_number,plate_number,gate_code,plate_capture_id,plate_capture_id_secondary,plates_match)values('1','Device','','123456','',74,74,0)
+Date :2021-03-18 08:24:06 Response:null
+Date :2021-03-18 08:36:10 *************************************Log**********************************************************
+Date :2021-03-18 08:36:10 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"74",
+    "plate_capture_id2":"74",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:36:10 Response:{"access_allowed":"false","plate_capture_id":"74","plate_image_name":"","plate_capture_id_secondary":"74","plate_image_name_secondary":"","description_line1":"plates_mismatch","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:36:29 *************************************Log**********************************************************
+Date :2021-03-18 08:36:29 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:36:29 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_mismatch","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:37:16 *************************************Log**********************************************************
+Date :2021-03-18 08:37:16 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:37:16 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:44:54 *************************************Log**********************************************************
+Date :2021-03-18 08:44:54 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:44:54 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:45:38 *************************************Log**********************************************************
+Date :2021-03-18 08:45:38 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_matching"
+}
+Date :2021-03-18 08:45:38 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:46:24 *************************************Log**********************************************************
+Date :2021-03-18 08:46:24 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plate_matching"
+}
+Date :2021-03-18 08:46:24 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 08:46:24 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 08:46:24 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 08:46:24 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 08:46:24 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"123456","referenceType":"PlateNumber"}
+Date :2021-03-18 08:46:24 CallAPI,Response:{"success":true}
+Date :2021-03-18 08:46:24 Response:{"reference_type":"PlateNumber","access_allowed":"true","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":"123456"}
+Date :2021-03-18 08:52:10 *************************************Log**********************************************************
+Date :2021-03-18 08:52:10 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:52:10 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:59:16 *************************************Log**********************************************************
+Date :2021-03-18 08:59:16 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:59:16 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 08:59:33 *************************************Log**********************************************************
+Date :2021-03-18 08:59:33 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plate_matching"
+}
+Date :2021-03-18 08:59:33 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 08:59:33 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 08:59:33 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 08:59:33 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 08:59:33 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"123456","referenceType":"PlateNumber"}
+Date :2021-03-18 08:59:33 CallAPI,Response:{"success":true}
+Date :2021-03-18 08:59:33 Response:{"reference_type":"PlateNumber","access_allowed":"true","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":"123456"}
+Date :2021-03-18 08:59:52 *************************************Log**********************************************************
+Date :2021-03-18 08:59:52 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plates_not_matching"
+}
+Date :2021-03-18 08:59:52 Response:{"access_allowed":"false","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"123456"}
+Date :2021-03-18 09:25:45 *************************************Log**********************************************************
+Date :2021-03-18 09:25:45 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plate_matching"
+}
+Date :2021-03-18 09:25:45 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:25:45 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:25:45 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:25:45 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:25:45 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"123456","referenceType":"PlateNumber"}
+Date :2021-03-18 09:25:45 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:25:45 Response:{"reference_type":"PlateNumber","access_allowed":"true","plate_capture_id":"78","plate_image_name":"OMNAD674_02-06-202007:12:16.jpg","plate_capture_id_secondary":"79","plate_image_name_secondary":"OMNW65653_02-06-202007:13:56.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":"123456"}
+Date :2021-03-18 09:26:02 *************************************Log**********************************************************
+Date :2021-03-18 09:26:02 Request:{
+    "transaction_id":"20210317115038",
+    "plate_capture_id1":"78",
+    "plate_capture_id2":"79",
+    "qrcode":"",
+    "plate_number":"123456",
+    "plate_match":"plate_matching"
+}
+Date :2021-03-18 09:26:02 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:26:02 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:26:02 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:26:03 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:26:03 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"123456","referenceType":"PlateNumber"}
+Date :2021-03-18 09:26:03 CallAPI,Response:{"success":false,"code":"TOO_EARLY_ARRIVAL"}
+Date :2021-03-18 09:26:03 code:TOO_EARLY_ARRIVAL
+Date :2021-03-18 09:26:03 codetext:Too early arrival
+Date :2021-03-18 09:26:03 Response:{"reference_type":"PlateNumber","access_allowed":"false","description_line1":"too_early_arrival","description_line2":"Too early arrival,Contact operator and scan QR","plate_number":"123456"}
+Date :2021-03-18 09:53:42 *************************************Log**********************************************************
+Date :2021-03-18 09:53:42 Request:{
+"plate_capture_id1":"69",
+"plate_capture_id2":"69",
+"plate_number":"12324",
+"qrcode":"",
+"plate_match":"plate_matching"
+}
+Date :2021-03-18 09:53:42 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:53:42 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:53:42 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:53:42 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:53:42 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"12324","referenceType":"PlateNumber"}
+Date :2021-03-18 09:53:42 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:53:42 Response:{"reference_type":"PlateNumber","access_allowed":"true","plate_capture_id":"69","plate_image_name":null,"plate_capture_id_secondary":"69","plate_image_name_secondary":null,"description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":"12324"}
+Date :2021-03-18 09:53:54 *************************************Log**********************************************************
+Date :2021-03-18 09:53:54 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"12324",
+"qrcode":"",
+"plate_match":"plate_matching"
+}
+Date :2021-03-18 09:53:54 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:53:54 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:53:54 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:53:54 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:53:54 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"12324","referenceType":"PlateNumber"}
+Date :2021-03-18 09:53:54 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:53:54 Response:{"reference_type":"PlateNumber","access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":"12324"}
+Date :2021-03-18 09:54:03 *************************************Log**********************************************************
+Date :2021-03-18 09:54:03 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"12324",
+"qrcode":"1234",
+"plate_match":"plate_matching"
+}
+Date :2021-03-18 09:54:03 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:54:03 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:54:03 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:54:03 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:54:03 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"12324","referenceType":"PlateNumber"}
+Date :2021-03-18 09:54:03 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:54:03 Response:{"reference_type":"PlateNumber","access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":"12324"}
+Date :2021-03-18 09:54:12 *************************************Log**********************************************************
+Date :2021-03-18 09:54:12 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"",
+"qrcode":"1234",
+"plate_match":"plate_matching"
+}
+Date :2021-03-18 09:54:12 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:54:12 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:54:12 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:54:13 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:54:13 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"1234","referenceType":"BookRefNumber"}
+Date :2021-03-18 09:54:13 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:54:13 Response:{"reference_type":"BookRefNumber","access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":""}
+Date :2021-03-18 09:54:25 *************************************Log**********************************************************
+Date :2021-03-18 09:54:25 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"",
+"qrcode":"1234"
+}
+Date :2021-03-18 09:54:25 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:54:25 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:54:25 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:54:25 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:54:25 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"1234","referenceType":"BookRefNumber"}
+Date :2021-03-18 09:54:25 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:54:25 Response:{"reference_type":"BookRefNumber","access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":""}
+Date :2021-03-18 09:54:46 *************************************Log**********************************************************
+Date :2021-03-18 09:54:46 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"",
+"qrcode":"1234",
+"plate_match":"plates_not_matching"
+}
+Date :2021-03-18 09:54:46 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 09:54:46 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 09:54:46 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 09:54:46 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 09:54:46 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"1234","referenceType":"BookRefNumber"}
+Date :2021-03-18 09:54:46 CallAPI,Response:{"success":true}
+Date :2021-03-18 09:54:46 Response:{"reference_type":"BookRefNumber","access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":""}
+Date :2021-03-18 10:44:27 *************************************Log**********************************************************
+Date :2021-03-18 10:44:27 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"",
+"qrcode":"1234",
+"plate_match":"plates_not_matching"
+}
+Date :2021-03-18 10:44:27 Token,URL:http://localhost/SmartGate/Token.php
+Date :2021-03-18 10:44:27 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-18 10:44:27 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE0NTIxMjc1fQ.PFNBicdYQ7ah5yYuiaEujd31II3WcZbvO3c0jEjrdt1qEk-EWs2E4VJ4ylBYv7RHYzCxeM8olWeBO3XNzKQy_g"}
+Date :2021-03-18 10:44:27 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-18 10:44:27 CallAPI,Request:{"gateCode":"GS3112121","referenceNumber":"1234","referenceType":"BookRefNumber"}
+Date :2021-03-18 10:44:27 CallAPI,Response:{"success":true}
+Date :2021-03-18 10:44:27 Response:{"reference_type":"BookRefNumber","access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"access_allowed","description_line2":"Open barriers,Driver move forward","plate_number":""}
+Date :2021-03-18 10:44:42 *************************************Log**********************************************************
+Date :2021-03-18 10:44:42 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"1234",
+"qrcode":"1234",
+"plate_match":"plates_not_matching"
+}
+Date :2021-03-18 10:44:42 Response:{"access_allowed":"false","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"1234","reference_type":"PlateNumber"}
+Date :2021-03-18 10:46:28 *************************************Log**********************************************************
+Date :2021-03-18 10:46:28 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"1234",
+"qrcode":"1234",
+"plate_match":"plates_not_matching"
+}
+Date :2021-03-18 10:46:28 sql:Insert into smartgate_request(device_number,device_name,reference_number,plate_number,gate_code,plate_capture_id,plate_capture_id_secondary,plates_match,response_status,fault_string,fault_code_text)values('1','Device','','1234','',79,78,0,'Failed','plates_not_matching',Plates do not match')
+Date :2021-03-18 10:46:28 Response:{"access_allowed":"false","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"1234","reference_type":"PlateNumber"}
+Date :2021-03-18 11:04:03 *************************************Log**********************************************************
+Date :2021-03-18 11:04:03 Request:{
+"plate_capture_id1":"79",
+"plate_capture_id2":"78",
+"plate_number":"1234",
+"qrcode":"1234",
+"plate_match":"plates_not_matching"
+}
+Date :2021-03-18 11:04:03 Response:{"access_allowed":"false","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","plate_capture_id_secondary":"78","plate_image_name_secondary":"OMNAD674_02-06-202007:12:16.jpg","description_line1":"plates_not_matching","description_line2":"Plates do not match","plate_number":"1234","reference_type":"PlateNumber"}

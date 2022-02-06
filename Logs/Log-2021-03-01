@@ -1,0 +1,78 @@
+
+Date :2021-03-01 08:33:15 *************************************Log**********************************************************
+Date :2021-03-01 08:33:15 Request:{
+    "plate_capture_id":"7",
+    "plate_number":"UAQ A 63204",
+    "qrcode":""
+}
+Date :2021-03-01 08:33:15 Response:{"access_allowed":"false"}
+Date :2021-03-01 08:33:22 *************************************Log**********************************************************
+Date :2021-03-01 08:33:22 Request:{
+    "plate_capture_id":"73",
+    "plate_number":"UAQ A 63204",
+    "qrcode":""
+}
+Date :2021-03-01 08:33:22 Response:{"access_allowed":"false"}
+Date :2021-03-01 08:33:42 *************************************Log**********************************************************
+Date :2021-03-01 08:33:42 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:33:42 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-01 08:34:49 *************************************Log**********************************************************
+Date :2021-03-01 08:34:49 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:34:49 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-01 08:34:49 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-01 08:34:49 CallAPI,API Response:{"success":"true"}
+Date :2021-03-01 08:34:49 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-01 08:35:04 *************************************Log**********************************************************
+Date :2021-03-01 08:35:04 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:35:04 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-01 08:35:04 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-01 08:35:04 CallAPI,API Response:{"success":"true"}
+Date :2021-03-01 08:35:04 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-01 08:38:47 *************************************Log**********************************************************
+Date :2021-03-01 08:38:47 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:38:47 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-01 08:38:47 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-01 08:38:47 CallAPI,API Response:{"success":"true"}
+Date :2021-03-01 08:38:47 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-01 08:40:05 *************************************Log**********************************************************
+Date :2021-03-01 08:40:05 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:40:05 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-01 08:40:05 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-01 08:40:05 CallAPI,API Response:{"success":"true"}
+Date :2021-03-01 08:40:05 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}
+Date :2021-03-01 08:43:19 *************************************Log**********************************************************
+Date :2021-03-01 08:43:19 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:45:35 *************************************Log**********************************************************
+Date :2021-03-01 08:45:35 Request:{
+    "plate_capture_id":"79",
+    "plate_number":"UAQ A 63254",
+    "qrcode":""
+}
+Date :2021-03-01 08:45:35 CallAPI,URL:http://localhost/SmartGate/APIService.php
+Date :2021-03-01 08:45:35 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"UAQ A 63254","referenceType":"Plate Number"}
+Date :2021-03-01 08:45:35 CallAPI,API Response:{"success":"true"}
+Date :2021-03-01 08:45:35 Response:{"access_allowed":"true","plate_capture_id":"79","plate_image_name":"OMNW65653_02-06-202007:13:56.jpg","description":"Description"}

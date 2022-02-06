@@ -1,0 +1,52 @@
+
+Date :2021-09-08 13:07:45 Request: {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 13:09:55 Request: {"identifier":"3-D-5","site_id":"C01","lane_id":"1","medium":"Plate Number","timestamp":"1631092357"}
+Date :2021-09-08 13:09:55 Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 13:11:54 Token Response :3f8a74dfbf7080642a3cfa378440a26f
+Date :2021-09-08 13:12:04 Token Response :f7616f479c6424de319b95bce2a18976
+Date :2021-09-08 13:20:27 GetBooking Response: {"response":{"status":false,"message":"Auth Failed"}}
+Date :2021-09-08 13:20:48 Token Response :fd051abcbf245eb68e28772e67a8d47f
+Date :2021-09-08 13:20:51 Token Response :ec0d16cc7f9cc9c94c266d36c847f2c0
+Date :2021-09-08 13:20:51 Token Response :d8009a4d3b75265a7cecd77a65711c21
+Date :2021-09-08 13:20:52 Token Response :211f725559097fe134dfbe89cb0739bc
+Date :2021-09-08 13:20:53 Token Response :55cbdc4d5fe76395bcc485bd97dc6162
+Date :2021-09-08 13:20:53 Token Response :81bc525248be52e6982369d18d8205d4
+Date :2021-09-08 13:20:54 Token Response :1b47759159d858b58fdfac88187f4440
+Date :2021-09-08 13:20:55 Token Response :4e0187e77d9ee1dd6d6006c863c79662
+Date :2021-09-08 13:21:15 Token Response :7e264963cd1a2b4323f662867d901133
+Date :2021-09-08 13:21:38 Token Response :fd3143dd8b70a7222a3810a799049c4a
+Date :2021-09-08 13:21:45 GetBooking Response: {"response":{"status":false,"message":"Auth Failed"}}
+Date :2021-09-08 14:02:25 Request: {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 14:02:25 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 14:02:29 GetBooking Response: {"response":{"status":false,"message":"Auth Failed"}}
+Date :2021-09-08 14:02:33 Request: {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 14:02:33 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 14:06:59 Request: {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 14:06:59 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 14:09:23 Request: {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 14:09:23 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 14:09:27 GetBooking Response: {"response":{"status":false,"message":"Auth Failed"}}
+Date :2021-09-08 14:16:55 Token Response :bb9277c9e01beedaed7fae9c4fbb516f
+Date :2021-09-08 14:16:55 Request: {"identifier":"3-D-5","site_id":"C01","lane_id":"1","medium":"Plate Number","timestamp":"1631096377"}
+Date :2021-09-08 14:16:55 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 14:48:34 Token Response :ddd6fc5cb9045515380491466a8bd7a8
+Date :2021-09-08 14:50:30 Token Response :edf118cd84e7504f7dffb87270867094
+Date :2021-09-08 14:50:30 Request: {"identifier":"P-6-0609215891","site_id":"C01","lane_id":"1","medium":"QR","timestamp":"1631098392"}
+Date :2021-09-08 14:50:30 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}
+Date :2021-09-08 14:51:04 Token Response :185e52084b78177e23f02caab38225be
+Date :2021-09-08 14:51:04 Request: {"identifier":"1-1-123","site_id":"C01","lane_id":"1","medium":"Plate Number","timestamp":"1631098426"}
+Date :2021-09-08 14:51:04 GetBooking Response: {"response":{"status":false,"message":"Invalid booking"}}
+Date :2021-09-08 15:20:14 GetBooking Response: {"response":{"status":false,"message":"Auth Failed"}}
+Date :2021-09-08 15:20:21 GetBooking Response: {"response":{"status":false,"message":"Auth Failed"}}
+Date :2021-09-08 15:20:26 Token Response :b6e87b8bb7cf31815581509a216444fd
+Date :2021-09-08 15:20:36 Request: {"medium": "Plate Number","identifier": "1-1-123","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 15:20:36 GetBooking Response: {"response":{"status":false,"message":"Invalid booking"}}
+Date :2021-09-08 15:20:42 Request: {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+Date :2021-09-08 15:20:42 GetBooking Response: {"response":{"status":true,"message":"Valid Booking"}}

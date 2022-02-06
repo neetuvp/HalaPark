@@ -1,0 +1,73 @@
+
+Date :2021-03-16 13:08:19 *************************************Log**********************************************************
+Date :2021-03-16 13:08:19 Request:{
+    "plate_capture_id1":"3",
+    "plate_capture_id2":"4",
+    "plate_number":"P 12345",
+    "qrcode":""
+}
+Date :2021-03-16 13:08:19 Token,URL:https://apis.fasah.sa/tabadul/fasah/oauth2/token/v1/jwt
+Date :2021-03-16 13:08:19 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-16 13:08:19 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE1OTE0NTIwfQ.O37IjaCPJ1hvcCEK5JTZV0J6Ut4C2kKYIIP03qMAZWvJIkkQxOCNab9AJ1v32wqCy7FjEShDv7g8e004r6FS_w"}
+Date :2021-03-16 13:08:19 CallAPI,URL:https://apis.fasah.sa/tabadul/fasah/api/v1/tas/smartgate/checkin
+Date :2021-03-16 13:08:19 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"P 12345","referenceType":"Plate Number"}
+Date :2021-03-16 13:08:20 CallAPI,Response:{"httpCode":"422","httpMessage":"Unprocessable Entity","moreInformation":"Validate: [JSV0013] Invalid value: the value is not among the permitted enumerated values."}
+Date :2021-03-16 13:08:20 Response:{"access_allowed":"false","description_line1":"technical_error","description_line2":"API Technical Error","plate_number":"P 12345"}
+Date :2021-03-16 13:10:18 *************************************Log**********************************************************
+Date :2021-03-16 13:10:18 Request:{
+    "plate_capture_id1":"3",
+    "plate_capture_id2":"4",
+    "plate_number":"P12345",
+    "qrcode":""
+}
+Date :2021-03-16 13:10:18 Token,URL:https://apis.fasah.sa/tabadul/fasah/oauth2/token/v1/jwt
+Date :2021-03-16 13:10:18 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-16 13:10:18 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE1OTE0NjM5fQ.aCI34e-0cuCxaooA3zB7UvLjsqTACi7AHkAY3xcyRxP1HqEGuK7SAI4vbUIDYTK072NZLUiIarDih2rZeH2xSQ"}
+Date :2021-03-16 13:10:18 CallAPI,URL:https://apis.fasah.sa/tabadul/fasah/api/v1/tas/smartgate/checkin
+Date :2021-03-16 13:10:18 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"P12345","referenceType":"Plate Number"}
+Date :2021-03-16 13:10:19 CallAPI,Response:{"httpCode":"422","httpMessage":"Unprocessable Entity","moreInformation":"Validate: [JSV0013] Invalid value: the value is not among the permitted enumerated values."}
+Date :2021-03-16 13:10:19 Response:{"access_allowed":"false","description_line1":"technical_error","description_line2":"API Technical Error","plate_number":"P12345"}
+Date :2021-03-16 13:10:46 *************************************Log**********************************************************
+Date :2021-03-16 13:10:46 Request:{
+    "plate_capture_id1":"3",
+    "plate_capture_id2":"4",
+    "plate_number":"",
+    "qrcode":"12345"
+}
+Date :2021-03-16 13:10:46 Token,URL:https://apis.fasah.sa/tabadul/fasah/oauth2/token/v1/jwt
+Date :2021-03-16 13:10:46 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-16 13:10:47 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE1OTE0NjY4fQ.HAoUng0I0XNPX8OHp6mb7Voh5JVSiNAhnJFfHKYaggLprzvT9fMpJygYJvctH12NdtrqyYgz3R2Or1p_q3lC8A"}
+Date :2021-03-16 13:10:47 CallAPI,URL:https://apis.fasah.sa/tabadul/fasah/api/v1/tas/smartgate/checkin
+Date :2021-03-16 13:10:47 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"12345","referenceType":"BookRefNumber"}
+Date :2021-03-16 13:10:47 CallAPI,Response:{"success":false,"code":"GATE_NOT_FOUND"}
+Date :2021-03-16 13:10:47 Response:{"access_allowed":"false","description_line1":"technical_error","description_line2":"API Technical Error","plate_number":""}
+Date :2021-03-16 13:13:06 *************************************Log**********************************************************
+Date :2021-03-16 13:13:06 Request:{
+    "plate_capture_id1":"3",
+    "plate_capture_id2":"4",
+    "plate_number":"",
+    "qrcode":"12345"
+}
+Date :2021-03-16 13:13:06 Token,URL:https://apis.fasah.sa/tabadul/fasah/oauth2/token/v1/jwt
+Date :2021-03-16 13:13:06 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-16 13:13:07 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE1OTE0ODA3fQ.OEaQhURIpwDKw7X2s8HXVkBQnLhv6te9fCDSsGvOUFBmjNSyJwCQX6oXN2tzqLLjyP-rSK6Sp0aRZOPhKRmS-w"}
+Date :2021-03-16 13:13:07 CallAPI,URL:https://apis.fasah.sa/tabadul/fasah/api/v1/tas/smartgate/checkin
+Date :2021-03-16 13:13:07 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"12345","referenceType":"BookRefNumber"}
+Date :2021-03-16 13:13:07 CallAPI,Response:{"success":false,"code":"GATE_NOT_FOUND"}
+Date :2021-03-16 13:13:07 Response:{"access_allowed":"false","description_line1":"technical_error","description_line2":"API Technical Error","plate_number":""}
+Date :2021-03-16 13:15:19 *************************************Log**********************************************************
+Date :2021-03-16 13:15:19 Request:{
+    "plate_capture_id1":"3",
+    "plate_capture_id2":"4",
+    "plate_number":"",
+    "qrcode":"12345"
+}
+Date :2021-03-16 13:15:19 Token,URL:https://apis.fasah.sa/tabadul/fasah/oauth2/token/v1/jwt
+Date :2021-03-16 13:15:19 Token,Request:{"username":"vxhbd038","password":"11223344"}
+Date :2021-03-16 13:15:19 Token,Response:{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2eGhiZDAzOCIsIkdST1VQUyAiOiJHQVRFT1BFUkFUT1IiLCJJU19TU08gIjpmYWxzZSwiU1NPX1RPS0VOICI6IiIsIkNMSUVOVF9OQU1FIjoiRkFTQUgiLCJpc3MiOiJGQVNBSCIsImF1ZCI6IkZBU0FIIEFwcGxpY2F0aW9uIiwiZXhwIjoxNjE1OTE0OTQwfQ.auZSpL3UHWupL6Rjig-amqTZ-kaVCqxdIqm0BoZsBE5y2LOfFeXT2Eu3ATVnHEiOXVbScsezb8j1oF9HCRKiaA"}
+Date :2021-03-16 13:15:19 CallAPI,URL:https://apis.fasah.sa/tabadul/fasah/api/v1/tas/smartgate/checkin
+Date :2021-03-16 13:15:19 CallAPI,Request:{"gateCode":"GS101212","referenceNumber":"12345","referenceType":"BookRefNumber"}
+Date :2021-03-16 13:15:20 CallAPI,Response:{"success":false,"code":"GATE_NOT_FOUND"}
+Date :2021-03-16 13:15:20 code:GATE_NOT_FOUND
+Date :2021-03-16 13:15:20 codetext:The gate not found
+Date :2021-03-16 13:15:20 Response:{"access_allowed":"false","description_line1":"gate_not_found","description_line2":"The gate not found","plate_number":""}

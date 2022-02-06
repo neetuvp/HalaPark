@@ -1,0 +1,12 @@
+Url:    http://localhost/SmartGate/AccessRequest.php
+
+Request:    {"medium": "Plate Number","identifier": "3-D-5","site_id": "C01","lane_id": "1","timestamp": "1630922533"}
+
+
+
+Response:   {
+    "response": {
+        "status": true,
+        "message": "Valid Booking"
+    }
+}
