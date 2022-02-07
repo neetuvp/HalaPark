@@ -100,7 +100,7 @@ function DBConnect()
     {
 
         die("Mysql Connection failed: " . $conn->connect_error);
-        WriteLog("Mysql Connection Failed:". $conn->connect_error);
+        WriteLog("Mysql Connection Failed. Error:". $conn->connect_error);
     }
 
     return $conn;
